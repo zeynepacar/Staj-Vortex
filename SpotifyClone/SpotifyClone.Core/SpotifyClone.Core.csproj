@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpotifyClone.Entities\SpotifyClone.Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AutoMapper\" />
+    <None Remove="Utilities\" />
+    <None Remove="Utilities\Results\" />
+    <None Remove="Utilities\Results\Abstract\" />
+    <None Remove="Utilities\Results\Concretes\" />
+    <None Remove="dtos\PlaylistSongDto\" />
+    <None Remove="dtos\LikedSongsDto\" />
+    <None Remove="dtos\SavedSongsDto\" />
+    <None Remove="dtos\SavedAlbumsDto\" />
+    <None Remove="Validation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Utilities\Results\" />
+    <Folder Include="Utilities\Results\Abstract\" />
+    <Folder Include="Utilities\Results\Concretes\" />
+    <Folder Include="dtos\PlaylistSongDto\" />
+    <Folder Include="dtos\LikedSongsDto\" />
+    <Folder Include="dtos\SavedSongsDto\" />
+    <Folder Include="dtos\SavedAlbumsDto\" />
+    <Folder Include="Validation\" />
+  </ItemGroup>
+</Project>

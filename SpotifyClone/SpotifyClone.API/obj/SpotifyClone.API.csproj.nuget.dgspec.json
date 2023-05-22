@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.API/SpotifyClone.API.csproj": {}
+  },
+  "projects": {
+    "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.API/SpotifyClone.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.API/SpotifyClone.API.csproj",
+        "projectName": "SpotifyClone.API",
+        "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.API/SpotifyClone.API.csproj",
+        "packagesPath": "/Users/zeynepacar/.nuget/packages/",
+        "outputPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zeynepacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/SpotifyClone.Core.csproj": {
+                "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/SpotifyClone.Core.csproj"
+              },
+              "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyCloneBusiness/SpotifyClone.Business.csproj": {
+                "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyCloneBusiness/SpotifyClone.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/SpotifyClone.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/SpotifyClone.Core.csproj",
+        "projectName": "SpotifyClone.Core",
+        "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/SpotifyClone.Core.csproj",
+        "packagesPath": "/Users/zeynepacar/.nuget/packages/",
+        "outputPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zeynepacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Entities/SpotifyClone.Entities.csproj": {
+                "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Entities/SpotifyClone.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Entities/SpotifyClone.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Entities/SpotifyClone.Entities.csproj",
+        "projectName": "SpotifyClone.Entities",
+        "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Entities/SpotifyClone.Entities.csproj",
+        "packagesPath": "/Users/zeynepacar/.nuget/packages/",
+        "outputPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zeynepacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyCloneBusiness/SpotifyClone.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyCloneBusiness/SpotifyClone.Business.csproj",
+        "projectName": "SpotifyClone.Business",
+        "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyCloneBusiness/SpotifyClone.Business.csproj",
+        "packagesPath": "/Users/zeynepacar/.nuget/packages/",
+        "outputPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyCloneBusiness/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/zeynepacar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/SpotifyClone.Core.csproj": {
+                "projectPath": "/Users/zeynepacar/Downloads/Staj-main/Staj-main/SpotifyClone/SpotifyClone.Core/SpotifyClone.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
